@@ -2,60 +2,63 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown')
 
-/*const generateMd = ({ name, location, github, linkedin, license }) =>
-
-
-  `
-  ## My name is 
-  ${name}
-
-  ## I live at
-  ${location}
-
-  ## My github is
-  ${github}
-
-  ## License
-  ${generateMarkdown.renderLicenseBadge(license)}
-  `; */
-
 inquirer.prompt([
+
     {
     type: 'input',
     name: 'title',
     message: 'What is the title of your README.md file?',
     },
+
     {
       type: 'input',
-      name: 'name',
-      message: 'What is your name?',
+      name: 'description',
+      message: 'Please enter a description.',
     },
+
     {
       type: 'input',
-      name: 'location',
-      message: 'Where are you from?',
+      name: 'usage',
+      message: 'Please enter how to use the application.',
     },
+
     {
       type: 'input',
-      name: 'hobby',
-      message: 'What is your favorite hobby?',
+      name: 'installation',
+      message: 'Please provide step by step installation process.',
     },
+
+    {
+      type: 'input',
+      name: 'contributing',
+      message: 'Please include contributors.',
+    },
+
+    {
+      type: 'input',
+      name: 'test',
+      message: 'Please provide a method to run a test.',
+    },
+
+    {
+      type: 'input',
+      name: 'email',
+      message: 'Please provide your email.',
+    },
+
     {
       type: 'list',
       name: 'license',
       message: 'What is your license?',
-      choices: ['MIT', 'Pizza', 'Tea', 'Tacos']
+      choices: ['MIT', 'BSD', 'GPL', 'APACHE', 'None']
     },
+
     {
       type: 'input',
       name: 'github',
-      message: 'Enter your GitHub Username',
+      message: 'Enter your GitHub Username.',
     },
-    {
-      type: 'input',
-      name: 'linkedin',
-      message: 'Enter your LinkedIn URL.',
-    },
+
   ])
   .then((answers) => {
     console.log(answers)
