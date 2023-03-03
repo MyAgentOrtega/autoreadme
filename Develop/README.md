@@ -1,43 +1,38 @@
+# README Generator   <br/>
 
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)  
+### <u> Description: </u>
+This application utilizes JS, and JS.node to create a README.md file automatically by inputting text into the terminal prompts.
+
+### <u> Notes: </u>
+Instructional video is in deployable link with Github repository.
+
+
+### <u> Screenshot/Example: </u>
+
+![README Generator](./Images/README%20screenshot.jpg)
     
-  # Practice title  
+### <u> Deployable Link to Website: </u>
 
-  
-  ## Table of Contents
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Questions](#questions)
-- [License](#license)
+https://github.com/MyAgentOrtega/autoreadme
 
-  ## Description
-  Practice desc.
+https://drive.google.com/file/d/15jd7lfoDJfB9YtQtqtZltf8ounmR4Ujd/view
 
-  ## Usage
-  By practicing!
+### <u> Support:  </u>
 
-  ## Installation
-  None needed
+- [MDN](https://developer.mozilla.org/en-US/)  
 
-  ## Contributing
-  Joey, Elvis
+- [Google](https://Google.com)
 
-  ## Test
-  Not included
+### <u> Contact: </u>
 
-  ## Questions
-  Joey@gmail.com  
+- [Contact - Future Coder - Joseph S. Ortega](mailto:MyAgentOrtega@gmail.com)
 
-  joey13
-  
-  ## License
-  The MIT License (MIT)
+### <u> Acknowledgement </u>
 
-Copyright (c) 2015 Joseph Ortega
+Authors and acknowledgement: Thank you to all my peers, tutors and instructors that helped me along the way!
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+### <u> License </u>
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
